@@ -130,7 +130,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: var(--z-fixed);
   background-color: rgba(14, 55, 63, 0.15);
 }
 
