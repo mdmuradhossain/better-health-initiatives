@@ -212,3 +212,13 @@ img {
   align-content: center;
   row-gap: 3rem;
 }
+
+blockquote::before {
+  content: "“";
+}
+
+blockquote::after {
+  content: "“";
+  transform: rotate(-180deg);
+  position: absolute;
+}
