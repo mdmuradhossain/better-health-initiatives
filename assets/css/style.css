@@ -157,6 +157,10 @@ img {
     padding: 3rem;
     transition: 0.4s;
   }
+
+  .social-icons {
+    display: none;
+  }
 }
 
 .nav__list {
