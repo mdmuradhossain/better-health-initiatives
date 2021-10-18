@@ -44,6 +44,8 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -74,6 +76,14 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
 }
 
 img {
@@ -120,7 +130,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--z-fixed);
+  z-index: 1000;
   background-color: rgba(14, 55, 63, 0.15);
 }
 
@@ -239,6 +249,13 @@ img {
   row-gap: 3rem;
 }
 
+.home__data {
+  display: flex;
+  position: absolute;
+  /* justify-content: space-evenly; */
+  top: 550px;
+  left: 100px;
+}
 /* About Section */
 .about__img {
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
@@ -252,4 +269,11 @@ blockquote::after {
   content: "“";
   transform: rotate(-180deg);
   position: absolute;
+}
+
+/* Buttons */
+.button {
+  margin: 5px;
+  padding: 15px 30px;
+  background-color: var(--primary-color);
 }
