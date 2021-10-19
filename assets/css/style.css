@@ -334,3 +334,18 @@ blockquote::after {
 .contact__container {
   text-align: center;
 }
+
+/* Footer Section */
+.footer {
+  background-color: var(--secondary-color);
+}
+
+.footer-section-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section-two {
+  display: flex;
+  justify-content: space-between;
+}
