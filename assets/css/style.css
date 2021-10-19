@@ -258,17 +258,25 @@ img {
 }
 /* About Section */
 .about__img {
+  margin-top: 100px;
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
 .about__container {
+  padding: 20px;
   display: flex;
   justify-content: space-around;
 }
 
-.about__info{
-  
+.about__info {
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.75);
+  word-break: break-all;
 }
 blockquote::before {
   content: "“";
@@ -285,4 +293,34 @@ blockquote::after {
   margin: 5px;
   padding: 15px 30px;
   background-color: var(--primary-color);
+}
+
+/* Team Section */
+.team__container {
+  padding: 20px;
+  display: flex;
+}
+
+.team-member {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.member-img {
+  /* height: 80vh; */
+}
+
+/* Testimonial Section */
+
+.testimonial-header {
+  display: flex;
+  background-color: var(--primary-color);
+}
+
+.testimonial-img {
+  position: relative;
+}
+.testimonial-img img {
+  position: absolute;
+  top: 20px;
 }
