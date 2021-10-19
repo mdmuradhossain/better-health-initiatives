@@ -135,7 +135,7 @@ img {
 }
 
 .nav {
-  height: var(--header-height);
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -260,6 +260,15 @@ img {
 .about__img {
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__info{
+  
 }
 blockquote::before {
   content: "“";
