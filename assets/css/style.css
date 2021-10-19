@@ -324,3 +324,8 @@ blockquote::after {
   position: absolute;
   top: 20px;
 }
+
+.testimonials-list {
+  display: flex;
+}
+
