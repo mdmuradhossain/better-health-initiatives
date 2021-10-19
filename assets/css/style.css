@@ -298,8 +298,8 @@ blockquote::after {
 
 /* Team Section */
 .team__container {
-  padding: 20px;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .team-member {
@@ -307,8 +307,9 @@ blockquote::after {
   border-radius: 10px;
 }
 
-.member-img {
-  /* height: 80vh; */
+.member-img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 /* Testimonial Section */
