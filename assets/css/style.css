@@ -329,7 +329,16 @@ blockquote::after {
   transition: all 0.3s ease-in;
 }
 /* Team Section */
+
+.team {
+  padding: 50px;
+}
+
+.section-title.team-section {
+  text-align: center;
+}
 .team__container {
+  margin-top: 20px;
 }
 
 .team-member {
@@ -342,6 +351,10 @@ blockquote::after {
   border-top-right-radius: 10px;
 }
 
+.team-member .member-content {
+  text-align: center;
+  line-height: 2;
+}
 /* Testimonial Section */
 
 .testimonial-header {
