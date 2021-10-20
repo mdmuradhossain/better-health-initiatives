@@ -357,12 +357,12 @@ img {
   margin-top: 20px;
   background-color: var(--primary-color);
 }
-.testimonial-author {
+.testimonial-author-main {
   font-size: var(--h1-font-size);
   color: #ffffff;
 }
 
-.testimonial-author-info {
+.testimonial-author-info-main {
   color: #ffffff;
   font-size: var(--h2-font-size);
 }
@@ -386,25 +386,25 @@ img {
   top: 20px;
 }
 
-.testimonials-list {
-  display: flex;
+.testimonials-list .testimonial-content blockquote {
+  font-style: italic;
 }
 
 blockquote::before {
-  content: "“";
-  position: absolute;
+  /* content: "“"; */
+  /* position: absolute; */
   /* left: -5px;
   top: 5px; */
-  font-size: 5rem;
+  /* font-size: 5rem; */
   font-family: arial;
 }
 
 blockquote::after {
-  content: "“";
-  transform: rotate(-180deg);
-  position: absolute;
-  font-size: 8rem;
-  font-family: arial;
+  /* content: "“"; */
+  /* transform: rotate(-180deg); */
+  /* position: absolute; */
+  /* font-size: 8rem; */
+  /* font-family: arial; */
 }
 
 /* Contact Section */
