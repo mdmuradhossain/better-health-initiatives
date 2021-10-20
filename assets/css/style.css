@@ -291,6 +291,7 @@ img {
 
 .section-title.about-title {
   text-align: center;
+  margin-top: 100px;
 }
 .about__img {
   margin-top: 60px;
@@ -357,6 +358,8 @@ img {
 }
 
 .section-title.team-title {
+  margin-top: 10px;
+  padding: 10px;
   text-align: center;
 }
 .team__container {
@@ -444,6 +447,9 @@ blockquote::after {
   padding: 20px;
 }
 
+section-title.contact-title {
+  padding-bottom: 10px;
+}
 .input-group input,
 textarea {
   background: #e1f5f5;
@@ -765,6 +771,20 @@ hr {
   }
   .footer__content {
     justify-items: center;
+  }
+
+  .section-title.about-title h1,
+  .section-title.team-title h1,
+  .section-title.testimonial-title h1,
+  .section-title.contact-title h1 {
+    font-size: var(--biggest-font-size);
+  }
+
+  .section-title.about-title span,
+  .section-title.team-title span,
+  .section-title.testimonial-title span,
+  .section-title.contact-title span {
+    font-size: 2rem;
   }
 }
 
