@@ -733,6 +733,28 @@ hr {
     column-gap: 2rem;
   }
 
+  .about__info {
+    width: 450px;
+    height: 450px;
+    padding-left: 10px;
+    margin-left: 20%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.75);
+    word-break: break-all;
+  }
+
+  .about__info .about__content {
+    padding-top: 20px;
+    margin-top: 20px;
+    line-height: 2;
+  }
+  .about__info .about__content h1 {
+    font-size: 2rem;
+  }
+  .about__info .about__content p {
+    font-size: 1.2rem;
+  }
   .button.contact {
     border: 1px solid #000000;
   }
@@ -802,6 +824,17 @@ hr {
   .home__data {
     margin-top: 300px;
     margin-left: 40px;
+  }
+
+  .about__info {
+    width: 500px;
+    height: 500px;
+    padding-left: 10px;
+    margin-left: 20%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.75);
+    word-break: break-all;
   }
   .button {
     margin: 10px;
