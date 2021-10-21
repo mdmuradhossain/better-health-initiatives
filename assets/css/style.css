@@ -580,15 +580,19 @@ hr {
 
 /* Respnsiveness */
 /* For small devices */
-@media screen and (max-width: 340px) {
-  .home__info {
-    width: 190px;
-    padding: 1rem;
-  }
+@media screen and (min-width: 340px) {
+  /* .home__img {
+    width: 340px;
+    height: 184px;
+  } */
 }
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+  /* .home__img {
+    width: 568px;
+    height: 307px;
+  } */
   .about__info {
     width: 320px;
     height: 320px;
