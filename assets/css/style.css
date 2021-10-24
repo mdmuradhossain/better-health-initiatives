@@ -328,6 +328,23 @@ img {
 }
 
 /* Buttons */
+
+/* .btn1 {
+  transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  background-color: hsla(323, 87%, 50%, 0.664);
+  border: 2px solid #111;
+}
+
+.btn1 h4 {
+  color: #111;
+  font-weight: 600;
+}
+
+.btn1:hover {
+  border: 2px solid #111;
+  box-shadow: 0px 0px 26px 8px hsla(323, 87%, 50%, 0.664);
+  background-color: #000428;
+} */
 .button {
   font-weight: bold;
   margin: 5px;
@@ -336,13 +353,16 @@ img {
 }
 
 .button.about {
+  transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
   color: #ffffff;
 }
 .button.contact {
+  transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
   color: var(--title-color);
   background-color: #fff;
 }
 .button.about:hover {
+  box-shadow: 0px 0px 20px 0px rgba(24, 28, 66, 0.5);
   background-color: var(--secondary-color);
   transition: all 0.3s ease-in;
 }
