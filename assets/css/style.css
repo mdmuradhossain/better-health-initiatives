@@ -320,6 +320,7 @@ img {
 }
 
 .about__content {
+  color: var(--secondary-color);
   padding: 10px 20px;
 }
 .about__info h1 {
@@ -396,7 +397,10 @@ img {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
 }
-
+.member-content h3,
+span {
+  color: var(--secondary-color);
+}
 .member-img img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
