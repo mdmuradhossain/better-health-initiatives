@@ -428,6 +428,7 @@ img {
 
 .testimonial-content {
   text-align: center;
+  color: var(--secondary-color);
 }
 
 /* .testimonial-content {
