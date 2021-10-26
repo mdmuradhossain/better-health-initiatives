@@ -6,7 +6,7 @@
   --primary-color: #4daf8f;
   --primary-color-alt: #048654;
   --secondary-color: #181c42;
-  --title-color: #393939;
+  --title-color: #181c42;
   --text-color: #707070;
   --text-color-light: #a6a6a6;
   --body-color: #fbfefd;
@@ -106,6 +106,9 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.section-title {
+  color: var(--title-color);
+}
 .container {
   max-width: 100%;
   margin-left: var(--mb-1);
@@ -368,6 +371,7 @@ img {
 }
 
 .button.contact:hover {
+  box-shadow: 0px 0px 20px 0px rgba(24, 28, 66, 0.5);
   color: #fff;
   background-color: var(--secondary-color);
   transition: all 0.3s ease-in;
