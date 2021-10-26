@@ -212,11 +212,11 @@ img {
 }
 
 .social-icons a.fb {
-  background-color: #149ff9;
+  background-color: #3b5998;
 }
 
 .social-icons a.tw {
-  background-color: #1a8cd8;
+  background-color: #1da1f2;
 }
 
 .social-icons a.ig {
@@ -227,6 +227,10 @@ img {
   background-color: #fe0101;
 }
 
+.social-icons a:hover {
+  background-color: var(--secondary-color);
+  transition: all 0.3s ease-in;
+}
 .social-icons a .bi.bi-facebook,
 .social-icons a .bi.bi.bi-instagram,
 .social-icons a .bi.bi.bi-youtube,
