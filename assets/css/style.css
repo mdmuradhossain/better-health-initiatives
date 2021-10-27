@@ -497,6 +497,14 @@ blockquote::after {
   /* font-family: arial; */
 }
 
+/* --------------
+Mission Section 
+----------------*/
+
+.mission__container {
+  background-color: #eef2f6;
+  width: 90%;
+}
 /* Contact Section */
 .contact__container {
   text-align: center;
