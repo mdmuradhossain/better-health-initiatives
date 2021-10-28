@@ -502,8 +502,42 @@ Mission Section
 ----------------*/
 
 .mission__container {
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: #eef2f6;
-  width: 90%;
+  width: 100%;
+  justify-content: center;
+}
+
+.mission-section-title {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.statements {
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.statement {
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.statement.mission-statement {
+  background: linear-gradient(-135deg, #97cd62, #649831) #97cd62 no-repeat;
+}
+
+.statement.transformation-statement {
+  background: linear-gradient(-135deg, #0095a6, #3b2a6b) #3b2a6b no-repeat;
+}
+
+.statement.accessibility-statement {
+  background: linear-gradient(-135deg, #a4d6d8, #0095a6) #0095a6 no-repeat;
+}
+
+.statement.integrity-statement {
+  background: linear-gradient(-135deg, #34beb9, #1a7673) #1a7673 no-repeat;
 }
 /* Contact Section */
 .contact__container {
@@ -762,6 +796,20 @@ hr {
     margin-bottom: var(--mb-2);
   }
 
+  .statements {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .mission-section-title span {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+  }
+  .statement {
+    width: 205px;
+    height: 390px;
+  }
   .input-group input,
   textarea {
     width: 80%;
@@ -856,6 +904,22 @@ hr {
   textarea {
     width: 70%;
   }
+
+  .statements {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+
+  .mission-section-title span {
+    font-size: 2rem;
+    color: var(--secondary-color);
+  }
+  .statement {
+    width: 255px;
+    height: 298px;
+  }
   .footer-section-one {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -944,6 +1008,22 @@ hr {
   }
   .testimonial-header .testimonial-content blockquote {
     font-size: 1.5rem;
+  }
+  .statements {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+
+    padding-bottom: 100px;
+  }
+  .mission-section-title span {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+  }
+  .statement {
+    width: 268px;
+    height: 298px;
+    /* line-height: 2; */
+    word-break: initial;
   }
 }
 
