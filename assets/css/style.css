@@ -515,7 +515,7 @@ Mission Section
   font-size: 1.5rem;
 }
 .statements {
-  padding: 20px;
+  padding: 40px;
   justify-content: space-evenly;
 }
 
@@ -796,11 +796,14 @@ hr {
     margin-bottom: var(--mb-2);
   }
 
+  .testimonial-header .testimonial-content {
+    padding: 10px;
+  }
   .statements {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
   .mission-section-title span {
     font-size: 1.5rem;
@@ -898,7 +901,7 @@ hr {
     padding-top: 100px;
   }
   .testimonial-header .testimonial-content blockquote {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .input-group input,
   textarea {
@@ -909,7 +912,7 @@ hr {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
   }
 
   .mission-section-title span {
@@ -1012,7 +1015,6 @@ hr {
   .statements {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
-
     padding-bottom: 100px;
   }
   .mission-section-title span {
