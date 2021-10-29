@@ -277,20 +277,20 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: auto;
   object-fit: cover;
   object-position: 83%;
 }
 
 .home__container {
   position: relative;
-  height: calc(100vh - var(--header-height));
+  /* height: calc(100vh - var(--header-height)); */
   align-content: center;
   row-gap: 3rem;
 }
 
 .home__data {
-  margin-top: 250px;
+  margin-top: 200px;
   margin-left: 20px;
 }
 
@@ -697,18 +697,55 @@ hr {
 /* Respnsiveness */
 /* For small devices */
 @media screen and (min-width: 340px) {
-  /* .home__img {
-    width: 340px;
-    height: 184px;
-  } */
+  .home__data {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .button {
+    padding: 5px 10px;
+  }
 }
 
+@media screen and (min-width: 380px) {
+  .home__data {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .home__data {
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .home__data {
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 540px) {
+  .home__data {
+    margin-top: 140px;
+    margin-left: 20px;
+  }
+}
 /* For medium devices */
 @media screen and (min-width: 568px) {
   /* .home__img {
     width: 568px;
     height: 307px;
   } */
+
+  .home__data {
+    margin-top: 160px;
+    margin-left: 20px;
+  }
+  .button {
+    padding: 10px 20px;
+  }
   .about__info {
     width: 320px;
     height: 320px;
@@ -735,6 +772,26 @@ hr {
   .team-member {
     width: 290px;
     height: 360px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .home__data {
+    margin-top: 180px;
+    margin-left: 20px;
+  }
+  .button {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .home__data {
+    margin-top: 220px;
+    margin-left: 20px;
+  }
+  .button {
+    padding: 10px 20px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -792,10 +849,12 @@ hr {
     font-size: 1rem;
   }
   .home__container {
-    height: 100vh;
     grid-template-rows: 1.8fr 0.5fr;
   }
+
   .home__data {
+    margin-top: 320px;
+    margin-left: 30px;
     align-self: flex-end;
   }
   .home__social {
@@ -811,6 +870,7 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
+
   .about__data,
   .about__title {
     text-align: initial;
@@ -856,6 +916,26 @@ hr {
   }
 }
 
+@media screen and (min-width: 830px) {
+  .home__data {
+    margin-top: 360px;
+    margin-left: 40px;
+  }
+
+  .section-title.about-title {
+    margin-top: 150px;
+  }
+}
+@media screen and (min-width: 830px) {
+  .home__data {
+    margin-top: 370px;
+    margin-left: 40px;
+  }
+
+  .section-title.about-title {
+    margin-top: 160px;
+  }
+}
 /* For large devices */
 @media screen and (min-width: 1024px) {
   .container {
@@ -879,7 +959,14 @@ hr {
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
   }
+  .home__data {
+    margin-top: 430px;
+    margin-left: 50px;
+  }
 
+  .section-title.about-title {
+    margin-top: 150px;
+  }
   .about__info {
     width: 420px;
     height: 420px;
@@ -904,6 +991,11 @@ hr {
   }
   .button.contact {
     border: 1px solid #000000;
+  }
+
+  .button.about,
+  .button.contact {
+    padding: 20px 40px;
   }
   .testimonials-list {
     display: flex;
@@ -1005,7 +1097,7 @@ hr {
   }
 
   .home__data {
-    margin-top: 300px;
+    margin-top: 500px;
     margin-left: 40px;
   }
 
@@ -1058,12 +1150,9 @@ hr {
 }
 
 /* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-  body {
-    margin: 0;
-  }
-  .home__container,
-  .home__img {
-    /* height: 640px; */
+
+@media screen and (min-width: 1280px) {
+  .section-title.section-title.about-title {
+    margin-top: 180px;
   }
 }
