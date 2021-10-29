@@ -785,7 +785,11 @@ hr {
   }
 
   .section {
-    padding: 7rem 0 2rem;
+    padding: 0rem 0 1rem;
+  }
+
+  .section-title span {
+    font-size: 1rem;
   }
   .home__container {
     height: 100vh;
@@ -822,7 +826,6 @@ hr {
     padding: 10px;
   }
   .statements {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     padding-bottom: 60px;
@@ -831,10 +834,7 @@ hr {
     font-size: 1.5rem;
     color: var(--secondary-color);
   }
-  .statement {
-    width: 205px;
-    height: 390px;
-  }
+
   .input-group input,
   textarea {
     width: 80%;
@@ -943,8 +943,8 @@ hr {
     color: var(--secondary-color);
   }
   .statement {
-    width: 255px;
-    height: 298px;
+    width: 235px;
+    height: 322px;
   }
   .footer-section-one {
     grid-template-columns: 1fr 1fr;
