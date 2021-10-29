@@ -394,6 +394,7 @@ img {
 }
 .team__container {
   margin-top: 20px;
+  justify-content: center;
 }
 
 .team-member {
@@ -714,7 +715,12 @@ hr {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
+@media screen and (max-width: 568px) {
+  .team-member {
+    width: 290px;
+    height: 360px;
+  }
+}
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -859,8 +865,8 @@ hr {
   }
 
   .about__info {
-    width: 450px;
-    height: 450px;
+    width: 420px;
+    height: 420px;
     padding-left: 10px;
     margin-left: 20%;
     text-align: center;
@@ -878,12 +884,11 @@ hr {
     font-size: 2rem;
   }
   .about__info .about__content p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .button.contact {
     border: 1px solid #000000;
   }
-
   .testimonials-list {
     display: flex;
     justify-items: center;
@@ -1006,6 +1011,11 @@ hr {
   .button.contact {
     padding: 20px 40px;
   }
+
+  /* .team-member {
+    width: 290px;
+    height: 355px;
+  } */
   .testimonial-header .testimonial-content {
     text-align: center;
   }
