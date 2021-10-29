@@ -1219,7 +1219,7 @@ hr {
 
 @media screen and (min-width: 1400px) {
   .section-title.section-title.about-title {
-    margin-top: 300px;
+    margin-top: 280px;
   }
   .home__data {
     margin-top: 580px;
@@ -1242,7 +1242,17 @@ hr {
     margin-top: 300px;
   }
   .home__data {
-    margin-top: 700px;
+    margin-top: 660px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1640px) {
+  .section-title.section-title.about-title {
+    margin-top: 320px;
+  }
+  .home__data {
+    margin-top: 720px;
     margin-left: 40px;
   }
 }
