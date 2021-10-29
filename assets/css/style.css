@@ -678,6 +678,35 @@ hr {
   margin-bottom: 30px;
 }
 
+/*----------
+  Scroll Top
+ ----------- */
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  display: flex;
+  opacity: 0.9;
+  border-radius: 50%;
+  z-index: var(--z-tooltip);
+  transition: 0.4s;
+}
+
+.scrollup svg {
+  color: var(--secondary-color);
+}
+.scrollup:hover {
+  background-color: #01e7cb;
+  opacity: 1;
+}
+
+/* Show Scroll */
+.show-scroll {
+  bottom: 5rem;
+}
 /* Respnsiveness */
 /* For small devices */
 @media screen and (min-width: 340px) {
