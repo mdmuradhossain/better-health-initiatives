@@ -704,12 +704,18 @@ hr {
   .button {
     padding: 5px 10px;
   }
+  .button.contact {
+    border: 1px solid #000000;
+  }
 }
 
 @media screen and (min-width: 380px) {
   .home__data {
     margin-top: 80px;
     margin-left: 20px;
+  }
+  .button.contact {
+    border: 1px solid #000000;
   }
 }
 
@@ -718,6 +724,9 @@ hr {
     margin-top: 100px;
     margin-left: 20px;
   }
+  .button.contact {
+    border: 1px solid #000000;
+  }
 }
 
 @media screen and (min-width: 430px) {
@@ -725,11 +734,17 @@ hr {
     margin-top: 120px;
     margin-left: 20px;
   }
+  .button.contact {
+    border: 1px solid #000000;
+  }
 }
 @media screen and (min-width: 540px) {
   .home__data {
     margin-top: 140px;
     margin-left: 20px;
+  }
+  .button.contact {
+    border: 1px solid #000000;
   }
 }
 /* For medium devices */
@@ -745,6 +760,9 @@ hr {
   }
   .button {
     padding: 10px 20px;
+  }
+  .button.contact {
+    border: 1px solid #000000;
   }
   .about__info {
     width: 320px;
@@ -773,6 +791,9 @@ hr {
     width: 290px;
     height: 360px;
   }
+  .button.contact {
+    border: 1px solid #000000;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -783,6 +804,9 @@ hr {
   .button {
     padding: 10px 20px;
   }
+  .button.contact {
+    border: 1px solid #000000;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -792,6 +816,9 @@ hr {
   }
   .button {
     padding: 10px 20px;
+  }
+  .button.contact {
+    border: 1px solid #000000;
   }
 }
 @media screen and (min-width: 768px) {
@@ -856,6 +883,10 @@ hr {
     margin-top: 320px;
     margin-left: 30px;
     align-self: flex-end;
+  }
+
+  .button.contact {
+    border: 1px solid #000000;
   }
   .home__social {
     flex-direction: row;
@@ -925,6 +956,9 @@ hr {
   .section-title.about-title {
     margin-top: 150px;
   }
+  .button.contact {
+    border: 1px solid #000000;
+  }
 }
 @media screen and (min-width: 830px) {
   .home__data {
@@ -934,6 +968,9 @@ hr {
 
   .section-title.about-title {
     margin-top: 160px;
+  }
+  .button.contact {
+    border: 1px solid #000000;
   }
 }
 /* For large devices */
@@ -1082,6 +1119,15 @@ hr {
   }
 }
 
+@media screen and (min-width: 1100px) {
+  .section-title.section-title.about-title {
+    margin-top: 160px;
+  }
+  .home__data {
+    margin-top: 450px;
+    margin-left: 40px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .container {
     /* max-width: 1024px; */
@@ -1154,5 +1200,49 @@ hr {
 @media screen and (min-width: 1280px) {
   .section-title.section-title.about-title {
     margin-top: 180px;
+  }
+  .home__data {
+    margin-top: 500px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .section-title.section-title.about-title {
+    margin-top: 220px;
+  }
+  .home__data {
+    margin-top: 540px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section-title.section-title.about-title {
+    margin-top: 300px;
+  }
+  .home__data {
+    margin-top: 580px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1530px) {
+  .section-title.section-title.about-title {
+    margin-top: 280px;
+  }
+  .home__data {
+    margin-top: 600px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .section-title.section-title.about-title {
+    margin-top: 300px;
+  }
+  .home__data {
+    margin-top: 700px;
+    margin-left: 40px;
   }
 }
