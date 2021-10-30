@@ -928,6 +928,9 @@ hr {
     margin-bottom: var(--mb-2);
   }
 
+  section-title.testimonial-title {
+    margin-top: 50px;
+  }
   .testimonial-header .testimonial-content {
     padding: 10px;
   }
