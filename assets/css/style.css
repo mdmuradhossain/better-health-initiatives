@@ -509,15 +509,15 @@ Mission Section
 }
 
 .statement.mission-statement {
-  background: linear-gradient(-135deg, #97cd62, #649831) #97cd62 no-repeat;
+  background: linear-gradient(-135deg, #34beb9, #1a7673) #1a7673 no-repeat;
 }
 
 .statement.transformation-statement {
-  background: linear-gradient(-135deg, #0095a6, #3b2a6b) #3b2a6b no-repeat;
+  background: linear-gradient(-135deg, #34beb9, #1a7673) #1a7673 no-repeat;
 }
 
 .statement.accessibility-statement {
-  background: linear-gradient(-135deg, #a4d6d8, #0095a6) #0095a6 no-repeat;
+  background: linear-gradient(-135deg, #34beb9, #1a7673) #1a7673 no-repeat;
 }
 
 .statement.integrity-statement {
