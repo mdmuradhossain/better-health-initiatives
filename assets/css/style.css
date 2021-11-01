@@ -952,10 +952,7 @@ hr {
     background: none;
     padding: 0;
   }
-  .subscribe__container {
-    background-color: var(--first-color-second);
-    padding: 3.5rem 0;
-  }
+
   .subscribe__input {
     padding: 0 0.5rem;
   }
@@ -1174,6 +1171,15 @@ hr {
     border-radius: 50%;
     box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.25);
     word-break: normal;
+  }
+
+  .about__info .about__content {
+    padding-top: 40px;
+    margin-top: 20px;
+    line-height: 2;
+  }
+  .about__info .about__content p {
+    font-size: 1.4rem;
   }
   .button {
     margin: 10px;
