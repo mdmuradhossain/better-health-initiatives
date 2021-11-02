@@ -1223,6 +1223,9 @@ hr {
     /* line-height: 2; */
     word-break: initial;
   }
+  .statement span {
+    font-size: 1.1rem;
+  }
 }
 
 /* For tall screens on mobiles y desktop*/
@@ -1304,6 +1307,12 @@ hr {
   .home__data {
     margin-top: 660px;
     margin-left: 40px;
+  }
+  .statements {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    gap: 2rem;
   }
 }
 
